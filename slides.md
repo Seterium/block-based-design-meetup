@@ -1,8 +1,8 @@
 ---
-# You can also start simply with 'default'
-theme: default
+theme: ./theme
 title: Block Based Design Meetup
 transition: slide-left
+favicon: /favicon.png
 mdc: true
 ---
 
