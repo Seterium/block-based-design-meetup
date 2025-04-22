@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build",
-    "build:stage": "slidev build",
+    "build:stage": "slidev build --out ./docs --base /block-based-design-meetup/",
     "export": "slidev export"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
-    "postcss": "^8.5.3"
+    "postcss": "^8.5.3",
+    "sass-embedded": "^1.87.0"
   }
 }
